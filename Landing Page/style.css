@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+h1{
+    color: #fff;
+    font-size: 3rem;
+    margin-top: -5rem;
+}
+
+
+.section-navbar {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      height: 80px;
+      text-align: center;
+      background-color: #fff;
+  }
+  
+  
+  .section-navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem 2.4rem;
+    height: 60px;
+  }
+  .section-navbar .container img {
+    margin-top: 30px;
+  }
+
+
+  
+  .section-navbar .navbar ul {
+    display: flex;
+    gap: 3.2rem;
+    margin-top: 2rem;
+    list-style-type: none;
+  
+    & li a {
+      color: rgb(248,39,147);
+      text-transform: uppercase;
+      font-weight: 550;
+      font-size: 1.2rem;
+      display: inline-block;
+      position: relative;
+
+  }
+  
+}
+
+.hero{
+    height: 78%;
+    background:linear-gradient(45deg, rgb(248,39,147), rgb(246,186,57));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    margin-top: -2.4rem;
+}
+
+.btn{
+    margin-top: 3rem;
+    color: #fff;
+}
+
+button{
+    padding: 8px 10px;
+    background-color: #fff;
+    color: rgb(246,186,57);
+    border-radius: 15px;
+    border: none;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+footer{
+   max-height: 9%;
+background-color: black;
+color: #fff;
+}
+
+.container {
+    max-width: 142rem;
+    margin: 0 auto;
+    /* padding: 9.6rem 2.4rem; */
+  }
+
+  .grid {
+    display: grid;
+    text-align: left;
+  }
+  
+  .grid-two--cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  .akhari {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-subheading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: rgb(246,186,57);
+  }
+
+  .social-footer--icons a {
+      margin-left: auto;
+  }
+  
+  .fa-brands {
+    color:  rgb(248,39,147);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transition: all 0.3s linear;
+    padding-right: 5rem;
+  }
+  
+  .social-footer--icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h5{
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
